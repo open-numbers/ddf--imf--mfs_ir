@@ -1,0 +1,61 @@
+{
+    "name": "ddf--imf--mfs_ir",
+    "title": "IMF Monetary and Financial Statistics (MFS), Interest Rate Dataset",
+    "description": "IMF Monetary and Financial Statistics (MFS), Interest Rate Dataset",
+    "author": "Gapminder",
+    "license": "CC-BY-4.0",
+    "language": {
+        "name": "English",
+        "id": "en"
+    },
+    "created": "2025-08-28T06:19:41.175Z",
+    "translations": [],
+    "version": "0.0.1",
+    "resources": [
+        {
+            "name": "ddf--concepts",
+            "path": "ddf--concepts.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "concept"
+                    },
+                    {
+                        "name": "concept_type"
+                    },
+                    {
+                        "name": "name"
+                    }
+                ],
+                "primaryKey": [
+                    "concept"
+                ]
+            }
+        }
+    ],
+    "ddfSchema": {
+        "concepts": [
+            {
+                "primaryKey": [
+                    "concept"
+                ],
+                "value": "concept_type",
+                "resources": [
+                    "ddf--concepts"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "concept"
+                ],
+                "value": "name",
+                "resources": [
+                    "ddf--concepts"
+                ]
+            }
+        ],
+        "entities": [],
+        "datapoints": [],
+        "synonyms": []
+    }
+}
