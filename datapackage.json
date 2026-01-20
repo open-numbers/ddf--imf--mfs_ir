@@ -8,7 +8,7 @@
         "name": "English",
         "id": "en"
     },
-    "created": "2025-08-28T06:19:41.175Z",
+    "created": "2026-01-20T01:00:51.251Z",
     "translations": [],
     "version": "0.0.1",
     "resources": [
@@ -29,6 +29,44 @@
                 ],
                 "primaryKey": [
                     "concept"
+                ]
+            }
+        },
+        {
+            "name": "ddf--entities--country",
+            "path": "ddf--entities--country.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "name"
+                    }
+                ],
+                "primaryKey": [
+                    "country"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--disr_rt_pt_a_pt--by--country--year",
+            "path": "ddf--datapoints--disr_rt_pt_a_pt--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "disr_rt_pt_a_pt"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
                 ]
             }
         }
@@ -54,8 +92,29 @@
                 ]
             }
         ],
-        "entities": [],
-        "datapoints": [],
+        "entities": [
+            {
+                "primaryKey": [
+                    "country"
+                ],
+                "value": "name",
+                "resources": [
+                    "ddf--entities--country"
+                ]
+            }
+        ],
+        "datapoints": [
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "disr_rt_pt_a_pt",
+                "resources": [
+                    "ddf--datapoints--disr_rt_pt_a_pt--by--country--year"
+                ]
+            }
+        ],
         "synonyms": []
     }
 }

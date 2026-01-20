@@ -1,2 +1,5 @@
 concept,concept_type,name
 name,string,Name
+country,entity_domain,Country
+year,time,Year
+disr_rt_pt_a_pt,measure,"Discount Rate, Percent per annum"

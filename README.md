@@ -1,6 +1,6 @@
 # IMF Monetary and Financial Statistics (MFS), Interest Rate Dataset
 
-IMF Monetary and Financial Statistics (MFS), Interest Rate Dataset
+This DDF dataset contains interest rate data from the IMF's Monetary and Financial Statistics (MFS) database.
 
 To get started with DDF and learn how to use the dataset, please read the
 [introduction to DDF][1] and [DDFcsv format document][2].
@@ -10,21 +10,20 @@ To get started with DDF and learn how to use the dataset, please read the
 
 ## Indicators
 
-- List of indicators in this repo
-
-## Definition of indicator
-
+| Indicator ID | Name |
+|--------------|------|
+| disr_rt_pt_a_pt | Discount Rate, Percent per annum |
 
 ## Unit of measurement
 
+Percent per annum
 
-## Versions
+## Data sources
 
+Data is sourced from the IMF's SDMX API:
+- Dataset: MFS_IR (Monetary and Financial Statistics - Interest Rates)
+- API endpoint: https://api.imf.org/external/sdmx/2.1/
 
-### Revision history
+## ETL
 
-
-## Data sources summary
-
-
-## Specific information about this indicator
+See [etl/README.md](etl/README.md) for instructions on updating the dataset.
