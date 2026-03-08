@@ -61,6 +61,7 @@ year,country,disr_rt_pt_a_pt
 2022,aia,2.0
 2023,aia,2.0
 2024,aia,3.0
+2025,aia,3.0
 1994,atg,9.0
 1995,atg,9.0
 1996,atg,9.0
@@ -92,6 +93,7 @@ year,country,disr_rt_pt_a_pt
 2022,atg,2.0
 2023,atg,2.0
 2024,atg,3.0
+2025,atg,3.0
 1977,bdi,5.5
 1978,bdi,5.5
 1979,bdi,7.0
@@ -611,6 +613,7 @@ year,country,disr_rt_pt_a_pt
 2022,dma,2.0
 2023,dma,2.0
 2024,dma,3.0
+2025,dma,3.0
 1995,dza,14.0
 1996,dza,13.0
 1997,dza,11.0
@@ -803,6 +806,7 @@ year,country,disr_rt_pt_a_pt
 2022,g309,2.0
 2023,g309,2.0
 2024,g309,3.0
+2025,g309,3.0
 1994,gab,7.75
 1995,gab,8.6
 1996,gab,7.75
@@ -913,6 +917,7 @@ year,country,disr_rt_pt_a_pt
 2022,grd,2.0
 2023,grd,2.0
 2024,grd,3.0
+2025,grd,3.0
 1992,hrv,1889.38975237189
 1993,hrv,34.4888824246298
 1994,hrv,8.5
@@ -1166,6 +1171,7 @@ year,country,disr_rt_pt_a_pt
 2022,kna,2.0
 2023,kna,2.0
 2024,kna,3.0
+2025,kna,3.0
 1964,kor,10.5
 1965,kor,28.0
 1966,kor,28.0
@@ -1307,6 +1313,7 @@ year,country,disr_rt_pt_a_pt
 2022,lca,2.0
 2023,lca,2.0
 2024,lca,3.0
+2025,lca,3.0
 2003,lka,15.0
 2004,lka,15.0
 2005,lka,15.0
@@ -1604,6 +1611,7 @@ year,country,disr_rt_pt_a_pt
 2022,msr,2.0
 2023,msr,2.0
 2024,msr,3.0
+2025,msr,3.0
 2015,mwi,27.0
 2016,mwi,24.0
 2017,mwi,16.0
@@ -2344,6 +2352,7 @@ year,country,disr_rt_pt_a_pt
 2022,vct,2.0
 2023,vct,2.0
 2024,vct,3.0
+2025,vct,3.0
 1964,ven,4.5
 1965,ven,4.5
 1966,ven,4.5
